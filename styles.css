@@ -2,14 +2,15 @@ body {
     font-family: comic sans ms;
     color: rgb(255, 90, 0);
     font-size: 14px;
-    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-b75fb72dadf0c09df48cfbc65a073d79");
     padding: 25px;
-    }
+    position: absolute;
+  }
   
   h1 {background-color: rgba(0, 0, 0, .85);
     padding-bottom: 6px;
     padding-top: 2px;
     border-radius: 20px;
+    max-width: 550px;
   }
   
   p {font-size: 16px;
@@ -36,7 +37,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 50px 70px;
-    max-width: 500px;
+    max-width: 395px;
     min-width: 300px;
     border-radius: 70px;
     background-color: rgba(0, 0, 0, .8)}
@@ -51,17 +52,16 @@ body {
   
   input, textarea, select {
     margin: 10px 0 0 0;
-      width: 100%;
+    width: 100%;
     min-height: 2em;
     background-color: white;
     border: 1px solid rgba(35, 35, 90, 0.8);
     color: rgb(70, 70, 98)}
   
   .input-radio, .input-checkbox {
-        float: left;
         margin: 3.25px 5px 0 4.5px;
         width: 5%;
-        display: inline-block;
+        display: left;
         margin-right: 0.625rem;
         min-height: 1.25rem;
         min-width: 1.25rem;
@@ -86,3 +86,6 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgba(255, 100, 0);
     }
+
+  body {background-image: url("https://qph.cf2.quoracdn.net/main-qimg-b75fb72dadf0c09df48cfbc65a073d79");
+   }
