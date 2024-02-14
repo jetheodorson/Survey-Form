@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+    <h1 id="title">DIY Landscaping Survey</h1>
+
+<body>
+   <h1><strong>Your feedback helps us bring the best website experience possible for all users.</h1>
+   <p id="description">Thank you for taking the survey! Please fill out the form below:</p>
+
+  <form class="form" id="survey-form">
+    <fieldset>
+      <label id="name-label">First & last name: <input type="text" id="name" placeholder="Enter your name" required></label>
+      <label id="email-label">E-mail address: <input type="email" id="email" placeholder="Enter your email" required></label>
+      <label id="number-label">Age: <em>(optional)</em><input type="number" id="number" min="13" max="99" placeholder="Select your age"></label>
+      <label>Select an option that best describes you and the landscape industry:
+        <select name="referrer" id="dropdown">
+          <option value="">Select an option</option>
+          <option value="expert">6+ yrs (Expert)</option>
+          <option value="pro">3-5+ yrs (Pro)</option>
+          <option value="experienced">2-3+ yrs (Experienced)</option>
+          <option value="beginner">0-2+ yrs (Beginner)</option>
+          <option value="homeowner">Homeowner / DIY / Learn</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <label>Would you recommend <strong><em>DIY Landscaping</em></strong> to a friend?
+      </label>
+
+      <label>
+        <input name="user-recommend" value="yes" type="radio" class="input-radio">Yes!!!
+      </label>
+
+      <label>
+        <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe :/
+      </label>
+       
+      <label>
+        <input name="user-recommend" value="no" type="radio" class="input-radio">..No :(
+      </label>
+    </fieldset>
+    
+    <fieldset>
+      <label>What's your favorite kind of content on the blog?
+        <select name="referrer2" id="dropdown">
+          <option value="">Select an option</option>
+          <option value="videos">How-to videos</option>
+          <option value="articles">Descriptive how-to articles</option>
+          <option value="information">Informative articles/videos</option>
+          <option value="business">Business operation how-to articles</option>
+          <option value="equipment">Equipment recommendations</option>
+          <option value="news">News in the landscape industry</option>
+        </select>
+      </label>
+    </fieldset>
+    
+    <fieldset>
+      <label>What would you like to see improved? (check all that apply)
+      </label>
+
+      <label>
+        <input type="checkbox" name="choice" value="book-analysis" class="input-checkbox">Book Analysis
+      </label>
+       
+      <label>
+        <input type="checkbox" name="choice" value="vlogs" class="input-checkbox"/>Vlogs
+      </label>
+
+      <label>
+        <input type="checkbox" name="choice" value="how-to-articles" class="input-checkbox"/>How-to Articles
+      </label>
+
+      <label>
+        <input type="checkbox" name="choice" value="equipment-recommendations" class="input-checkbox"/>Equipment Recommendations
+      </label>
+      
+      <label>
+        <input type="checkbox" name="choice" value="news" class="input-checkbox">Landscaping Related News
+      </label>
+      
+      <label>
+        <input type="checkbox" name="choice" value="business" class="input-checkbox">Business Artlices</label>
+
+       <label><input type="checkbox" name="choice" value="other" class="input-checkbox">Other (specify in the comment area)</label>
+     </fieldset>
+
+     <fieldset>
+       <label>Any comments or suggestions? Let us know! 
+         <textarea name="suggestions" id="suggestions" class="input-textarea" placeholder="Write your comments here..." rows="5" columns="6"></textarea>
+       </label>
+     </fieldset>
+       <input type="submit" class="input-submit" id="submit" value="Submit">   
+  </form>
+  
+  <h4><em>The Landscape Blog</em></h4>
+</body>
+</html>
